@@ -6,7 +6,7 @@ on:
       - master
   pull_request:
     branches:
-      - master
+      - dj3
 
 env:
   DATABASE_URL: "mssql://SA:MyPassword42@localhost:1433/default?isolation_level=read committed&driver=ODBC Driver 17 for SQL Server"
