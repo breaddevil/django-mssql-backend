@@ -39,13 +39,13 @@ jobs:
       matrix:
         os: [windows-latest]
         tox_env:
-          - "py36-django22"
-          - "py36-django30"
+#          - "py36-django22"
+#          - "py36-django30"
 
-          - "py37-django22"
+#          - "py37-django22"
           - "py37-django30"
 
-          - "py38-django30"
+#          - "py38-django30"
 
         include:
           - python: "3.6"
