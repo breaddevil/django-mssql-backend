@@ -91,7 +91,7 @@ jobs:
           python -m pip install --upgrade pip wheel setuptools
           pip install tox tox-venv
           cd ${{ github.workspace }}
-          git clone --branch 3.0.2 https://github.com/django/django.git {{ github.workspace }}\django
+          git clone --branch 3.0.2 https://github.com/django/django.git ${{ github.workspace }}\django
 
       - name: Test Linux
         if: matrix.os == 'ubuntu-latest'
